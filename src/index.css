@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;500&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .icon {
+        background: linear-gradient(
+            119deg,
+            rgba(117, 184, 230, 1) 0%,
+            rgba(206, 128, 232, 1) 20%,
+            rgba(255, 255, 255, 1) 50%,
+            rgba(255, 255, 255, 1) 75%,
+            rgba(1, 1, 1, 1) 100%
+        );
+    }
+}
