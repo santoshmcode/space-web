@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import Button from "../atoms/Button";
 
 const Navbar = () => {
     return (
-        <nav className="flex items-center py-4 px-8">
+        <nav className="flex items-center py-4">
             <div className="flex items-center">
                 <div className="icon font-Teko text-transparent text-3xl h-8 mr-4 flex items-center bg-clip-text">
                     SPACE
@@ -35,9 +36,10 @@ const Navbar = () => {
                 </a>
             </div>
             <div className="flex justify-end flex-grow">
-                <button className="w-40 h-12 font-Sora font-medium text-sm rounded-full  bg-primary-blue text-white px-4 py-2 hover:bg-blue-700 ">
-                    Connect Wallet
-                </button>
+                <Button
+                    text="Connect Wallet"
+                    className="bg-primary-blue text-white hover:bg-blue-700"
+                />
             </div>
         </nav>
     );
