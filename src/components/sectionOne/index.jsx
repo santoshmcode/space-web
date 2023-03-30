@@ -4,7 +4,7 @@ import EthereumLogo from "../../assets/ethereum-3d-logo.png";
 
 const SectionOne = () => {
     return (
-        <div className="h-screen -mt-20 pt-28 flex">
+        <div className="h-[820px] -mt-20 pt-28 flex">
             <div className="w-2/4">
                 <div className="uppercase font-Teko font-bold text-white max-w-xl text-8xl leading-{88px}">
                     discover collect sell digit nft.
