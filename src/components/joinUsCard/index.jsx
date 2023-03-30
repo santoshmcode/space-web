@@ -4,7 +4,7 @@ import joinMan from "../../assets/join-img.png";
 function Join() {
     return (
         <div class="flex justify-center  h-80 mb-12">
-            <a class="flex flex-col items-center justify-between bg-indigo-600  rounded-3xl shadow md:flex-row w-10/12 relative dark:border-gray-700">
+            <a class="flex flex-col items-center justify-between bg-indigo-600  rounded-3xl shadow md:flex-row w-full relative dark:border-gray-700">
                 <img
                     class="-translate-y-9 object-cover w-full rounded-t-lg h-full md:h-auto md:w-96 md:rounded-none md:rounded-l-lg"
                     src={joinMan}
@@ -17,11 +17,11 @@ function Join() {
                     <h1 className="font-Teko text-6xl text-white">
                         JOIN US NOW
                     </h1>
-                    <p className="text-white">
+                    <p className="text-gray-400 font-Sora font-light">
                         {" "}
                         Lorem and ipsum dolor sit amet consectetur slides{" "}
                     </p>
-                    <p className="text-white">
+                    <p className="text-gray-400 font-Sora font-light">
                         adipisicing elit. Incidunt dolorem nobis inventore.{" "}
                     </p>
                     <br />
