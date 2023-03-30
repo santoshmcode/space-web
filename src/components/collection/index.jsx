@@ -1,7 +1,7 @@
 import React from "react";
 function Colletion() {
     return (
-        <div className="flex">
+        <div className="flex mb-12">
             <div style={{ margin: "auto" }}>
                 <h2 className="font-Teko text-2xl text-blue-200">COLLECTION</h2>
                 <h1 className="font-Teko text-6xl text-white">BORED APES</h1>
