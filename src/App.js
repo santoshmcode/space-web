@@ -1,6 +1,7 @@
 import BigCard from "./components/bigCard";
 import Colletion from "./components/collection";
 import FAQ from "./components/faq";
+import Footer from "./components/footer";
 import Join from "./components/joinUsCard";
 import KeyFeature from "./components/keyFeature";
 import Meka from "./components/meka";
@@ -18,6 +19,7 @@ function App() {
             <Colletion />
             <FAQ />
             <Join />
+            <Footer />
         </div>
     );
 }

@@ -3,7 +3,7 @@ import image1 from "../../assets/cube.png";
 import joinMan from "../../assets/join-img.png";
 function Join() {
     return (
-        <div class="flex justify-center  h-80 mb-12">
+        <div class="flex justify-center h-80 mb-28">
             <a class="flex flex-col items-center justify-between bg-indigo-600  rounded-3xl shadow md:flex-row w-full relative dark:border-gray-700">
                 <img
                     class="-translate-y-9 object-cover w-full rounded-t-lg h-full md:h-auto md:w-96 md:rounded-none md:rounded-l-lg"
