@@ -6,7 +6,7 @@ import tenzosIcon from "../../assets/tezos-coin.png.webp";
 
 const KeyFeature = () => {
     return (
-        <div>
+        <div className="mb-12">
             <h2 className="font-Teko text-2xl text-blue-200 uppercase text-center">
                 key Feature
             </h2>
