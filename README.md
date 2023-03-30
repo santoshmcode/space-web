@@ -1,15 +1,14 @@
 # Project Name: Assignment
 
-The application is deployed at `abc.com`.
+The application is deployed at `https://space-web-alpha.vercel.app`.
 
 ## Stack Used
 
 The project is built using the following stack:
 
-- React.js - A JavaScript library for building user interfaces
-- Tailwind CSS - A utility-first CSS framework for rapidly building custom user interfaces
-- React Icons - A library of popular icons for React applications
-
+-   React.js - A JavaScript library for building user interfaces
+-   Tailwind CSS - A utility-first CSS framework for rapidly building custom user interfaces
+-   React Icons - A library of popular icons for React applications
 
 ## Installation
 
