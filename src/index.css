@@ -15,4 +15,13 @@
             rgba(1, 1, 1, 1) 100%
         );
     }
+    .key-card {
+        background: linear-gradient(
+            137deg,
+            rgba(49, 47, 57, 1) 0%,
+            rgba(49, 47, 57, 1) 20%,
+            rgba(30, 28, 40, 1) 70%,
+            rgba(30, 28, 40, 1) 100%
+        );
+    }
 }
